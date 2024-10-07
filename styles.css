@@ -46,7 +46,7 @@ header {
 h2{
     font-size: 2em;
     margin-right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 91, 127);
     padding: 20px;
     border-radius: 10px;
     color: #fff;
@@ -113,8 +113,6 @@ footer {
     width: 100%;
     flex-shrink: 0;
 }
-
-
 
 figure {
     text-align: center;
