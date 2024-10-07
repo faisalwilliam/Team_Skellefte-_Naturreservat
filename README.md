@@ -1,7 +1,7 @@
 # Team-Skellefte-Naturreservat
 Förslag på Layout och Sidor
 1. Startsida
-Titel: Välkommen till [Naturreservatets namn]
+Titel: Välkommen till Bjuröklubb Naturreservat
 Bildbakgrund: En vacker bild från naturreservatet
 Kort beskrivning: En introduktion till naturreservatet
 Navigationsmeny: Länkar till de andra sidorna
