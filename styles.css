@@ -11,7 +11,7 @@ body {
     color: #333;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 
@@ -43,9 +43,18 @@ header {
     font-size: 1.5em;
     margin: 10px 0;
 }
+h2{
+    font-size: 2em;
+    margin-right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
 
 
 nav {
+    width: 100%;
     background-color: rgba(192, 238, 246, 0.8);
     background-position: cover;
     padding: 15px 0;
@@ -101,6 +110,7 @@ footer {
     padding: 20px;
     position: relative;
     /*bottom: 0;*/
+    width: 100%;
     flex-shrink: 0;
 }
 
@@ -126,17 +136,17 @@ figure figcaption{
 }
 .contact-info ul {
     list-style-type: none;
-    margin: 0;
-    max-width: 400px;
     font-family: 'Arial', sans-serif;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     position: relative;
+    display: flex;
+    text-align: center;
 }
 
 .contact-info li {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-left: -35px;
     padding: 10px;
     background-color: rgba(192, 238, 246, 0.8);
     border-radius: 5px;
@@ -145,6 +155,12 @@ figure figcaption{
     align-items: center;
 
 }
+.contact-info span
+{
+    margin-left: -35px;
+
+}
+
 .centerDiv
 {
     justify-content: center;
@@ -153,6 +169,7 @@ figure figcaption{
 }
 .iconDiv
 {
+    margin-left: -35px;
     justify-content: center;
     gap:100px;
     display: flex;
@@ -164,5 +181,4 @@ figure figcaption{
 }
 .icon:hover{
     color: rgba(192, 238, 246, 0.8);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
