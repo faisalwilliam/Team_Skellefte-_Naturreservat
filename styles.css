@@ -11,7 +11,7 @@ body {
     color: #333;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 
@@ -46,6 +46,7 @@ header {
 
 
 nav {
+    width: 100%;
     background-color: rgba(192, 238, 246, 0.8);
     background-position: cover;
     padding: 15px 0;
@@ -94,6 +95,7 @@ footer {
     padding: 20px;
     position: relative;
     /*bottom: 0;*/
+    width: 100%;
     flex-shrink: 0;
 }
 
@@ -157,5 +159,4 @@ figure figcaption{
 }
 .icon:hover{
     color: rgba(192, 238, 246, 0.8);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
